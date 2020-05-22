@@ -1,4 +1,4 @@
-spring:
+conf:
   mail:
     host: smtp.office365.com
     port: 587
