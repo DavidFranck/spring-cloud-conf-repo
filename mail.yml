@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: smtp.office365.com
+    port: 587
+    username: ad@happyelements.com
+    password: Letou_123456
+    default-encoding: utf-8
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true #授权
+          starttls:
+            enable: true
+            required: true
