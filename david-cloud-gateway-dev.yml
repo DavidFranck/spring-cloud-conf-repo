@@ -1,3 +1,3 @@
 rate-limiter:
-  permits: 121
+  permits: 22
   period: 1
