@@ -1,2 +1,3 @@
-ratelimiter:
-  
+rate-limiter:
+  range: 10
+  threshold: 3
