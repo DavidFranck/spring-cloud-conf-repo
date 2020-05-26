@@ -1,16 +1,13 @@
 spring:
   mail:
-    host: smtp.qq.com
+    host: smtp.exmail.qq.com
     port: 465
-    username: 524259885@qq.com
-    password: David19930305
+    username: crm-ad-mex@mobiexchanger.com
+    password: Mex123
     default-encoding: utf-8
     protocol: smtp
     properties:
-      to: hehandadad.wang@happyelements.com
-      mail:
-        smtp:
-          auth: true #授权
-          starttls:
-            enable: true
-            required: true
+      mail.smtp.auth: true
+      mail.smtp.socketFactory.class: javax.net.ssl.SSLSocketFactory
+      mail.smtp.socketFactory.fallback: false
+      mail.smtp.socketFactory.port: 465　
