@@ -1,9 +1,9 @@
 spring:
   mail:
-    host: smtp.office365.com
-    port: 587
-    username: hehan.wang@happyelements.com
-    password: Letou_123456
+    host: smtp.qq.com
+    port: 465
+    username: 524259885@qq.com
+    password: David19930305
     default-encoding: utf-8
     protocol: smtp
     properties:
